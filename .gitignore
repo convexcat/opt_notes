@@ -8,3 +8,5 @@ __pycache__/
 **/*.quarto_ipynb
 
 *.zip
+
+.venv/
