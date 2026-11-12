@@ -1,0 +1,3 @@
+## Newton y regularización cúbica {#sec-newton-cubica}
+
+*Por escribir.*

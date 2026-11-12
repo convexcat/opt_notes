@@ -1,0 +1,3 @@
+## Métodos de búsqueda en línea (Wolfe, backtracking) {#sec-busqueda-en-linea}
+
+*Por escribir.*

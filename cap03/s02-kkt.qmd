@@ -1,0 +1,3 @@
+## Condiciones KKT {#sec-kkt}
+
+*Por escribir.*

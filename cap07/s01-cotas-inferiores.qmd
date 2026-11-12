@@ -1,0 +1,3 @@
+## Cotas inferiores de convergencia {#sec-cotas-inferiores}
+
+*Por escribir.*

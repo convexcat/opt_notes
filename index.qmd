@@ -1,0 +1,7 @@
+# Prefacio {.unnumbered}
+
+{{< include _macros.qmd >}}
+
+Notas sobre optimización para ciencia de datos: fundamentos de análisis convexo, dualidad, algoritmos de primer orden, extensiones no convexas y aplicaciones a modelos lineales y SVM.
+
+*Por escribir.*

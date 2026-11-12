@@ -1,0 +1,19 @@
+# Condiciones de optimalidad, dualidad y algoritmos {#sec-cap03}
+
+{{< include ../_macros.qmd >}}
+
+{{< include s01-optimalidad-sin-restricciones.qmd >}}
+
+{{< include s02-kkt.qmd >}}
+
+{{< include s03-lagrangiano-dual.qmd >}}
+
+{{< include s04-dualidad-fenchel.qmd >}}
+
+{{< include s05-dualidad-lp-farkas.qmd >}}
+
+{{< include s06-penalizacion-cuadratica.qmd >}}
+
+{{< include s07-algoritmos-duales.qmd >}}
+
+{{< include s08-barrera-punto-interior.qmd >}}

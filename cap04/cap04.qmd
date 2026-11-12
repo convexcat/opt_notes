@@ -1,0 +1,9 @@
+# Algoritmos de primer orden {#sec-cap04}
+
+{{< include ../_macros.qmd >}}
+
+{{< include s01-descenso-gradiente.qmd >}}
+
+{{< include s02-comparacion-tasas.qmd >}}
+
+{{< include s03-busqueda-en-linea.qmd >}}

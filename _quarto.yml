@@ -1,0 +1,45 @@
+project:
+  type: book
+
+lang: es
+
+book:
+  title: "Optimización para ciencia de datos"
+  author: "Jose"
+  date: today
+  repo-url: https://github.com/convexcat/opt_notes
+  repo-actions: [edit, issue]
+  search: true
+  chapters:
+    - index.qmd
+    - cap01/cap01.qmd
+    - cap02/cap02.qmd
+    - cap03/cap03.qmd
+    - cap04/cap04.qmd
+    - cap05/cap05.qmd
+    - cap06/cap06.qmd
+    - cap07/cap07.qmd
+    - cap08/cap08.qmd
+    - cap09/cap09.qmd
+    - cap10/cap10.qmd
+    - cap11/cap11.qmd
+    - references.qmd
+  appendices:
+    - apendices/guia-formato.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    html-math-method: mathjax
+    number-depth: 2
+    toc-depth: 3
+    code-copy: true
+
+jupyter: python3
+
+execute:
+  freeze: auto

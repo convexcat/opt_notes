@@ -1,0 +1,3 @@
+## Gradiente proximal, operador de Moreau {#sec-gradiente-proximal}
+
+*Por escribir.*

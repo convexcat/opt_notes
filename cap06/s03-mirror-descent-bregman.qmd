@@ -1,0 +1,3 @@
+## Mirror descent y divergencias de Bregman {#sec-mirror-descent-bregman}
+
+*Por escribir.*

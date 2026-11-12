@@ -1,0 +1,11 @@
+# Aceleración y geometría {#sec-cap06}
+
+{{< include ../_macros.qmd >}}
+
+{{< include s01-nesterov-edos.qmd >}}
+
+{{< include s02-convergencia-acelerada.qmd >}}
+
+{{< include s03-mirror-descent-bregman.qmd >}}
+
+{{< include s04-euclidiana-vs-entropia.qmd >}}

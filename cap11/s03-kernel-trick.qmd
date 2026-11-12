@@ -1,0 +1,3 @@
+## Kernel trick {#sec-kernel-trick}
+
+*Por escribir.*

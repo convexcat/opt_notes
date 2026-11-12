@@ -1,0 +1,11 @@
+# Extensiones no convexas {#sec-cap08}
+
+{{< include ../_macros.qmd >}}
+
+{{< include s01-puntos-estacionarios-2do-orden.qmd >}}
+
+{{< include s02-condicion-pl.qmd >}}
+
+{{< include s03-newton-cubica.qmd >}}
+
+{{< include s04-sqp.qmd >}}

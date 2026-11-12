@@ -1,0 +1,11 @@
+# Modelos lineales {#sec-cap10}
+
+{{< include ../_macros.qmd >}}
+
+{{< include s01-minimos-cuadrados.qmd >}}
+
+{{< include s02-ridge.qmd >}}
+
+{{< include s03-lasso.qmd >}}
+
+{{< include s04-regresion-logistica.qmd >}}

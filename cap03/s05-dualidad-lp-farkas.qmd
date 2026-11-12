@@ -1,0 +1,3 @@
+## Caso lineal como ilustración: dualidad LP, Farkas {#sec-dualidad-lp-farkas}
+
+*Por escribir.*

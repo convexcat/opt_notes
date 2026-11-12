@@ -1,0 +1,16 @@
+::: {.hidden}
+$$
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
+\newcommand{\inner}[2]{\left\langle #1, #2 \right\rangle}
+\newcommand{\argmin}{\operatorname*{arg\,min}}
+\newcommand{\argmax}{\operatorname*{arg\,max}}
+\newcommand{\dom}{\operatorname{dom}}
+\newcommand{\epi}{\operatorname{epi}}
+\newcommand{\conv}{\operatorname{conv}}
+\newcommand{\prox}{\operatorname{prox}}
+\newcommand{\proj}{\operatorname{proj}}
+\newcommand{\subd}{\partial}
+$$
+:::

@@ -1,0 +1,3 @@
+## Barrera y punto interior (caso convexo: ruta central, autoconcordancia, complejidad polinomial) {#sec-barrera-punto-interior}
+
+*Por escribir.*

@@ -1,0 +1,3 @@
+## Funciones convexas: caracterizaciones de 1er/2do orden {#sec-funciones-convexas}
+
+*Por escribir.*

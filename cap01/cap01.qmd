@@ -1,0 +1,5 @@
+# Motivaciones {#sec-cap01}
+
+{{< include ../_macros.qmd >}}
+
+{{< include s01-ejemplos-motivadores.qmd >}}

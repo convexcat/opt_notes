@@ -1,0 +1,3 @@
+## Ejemplos: norma euclidiana vs. entropía negativa (simplex) {#sec-euclidiana-vs-entropia}
+
+*Por escribir.*

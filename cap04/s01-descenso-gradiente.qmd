@@ -1,0 +1,3 @@
+## Descenso de gradiente: caso general, convexo, fuertemente convexo {#sec-descenso-gradiente}
+
+*Por escribir.*

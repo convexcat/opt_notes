@@ -1,0 +1,97 @@
+# Guía de formato {.unnumbered}
+
+{{< include ../_macros.qmd >}}
+
+Ejemplo de cada elemento disponible. Borra este apéndice (y su línea en `_quarto.yml`) cuando ya no lo necesites.
+
+## LaTeX
+
+En línea: $f:\R^n\to\R$ es $L$-suave si $\norm{\nabla f(x)-\nabla f(y)}\le L\norm{x-y}$. Las macros de `_macros.qmd` están disponibles en todos los capítulos.
+
+En bloque, con etiqueta para referenciarla con `@eq-gd`:
+
+$$
+x_{k+1} = x_k - \eta\,\nabla f(x_k)
+$$ {#eq-gd}
+
+## Teoremas y referencias
+
+::: {#thm-gd-convexo}
+## Descenso de gradiente, caso convexo
+
+Si $f$ es convexa y $L$-suave y $\eta = 1/L$, entonces
+$f(x_k)-f^\star \le \dfrac{L\norm{x_0-x^\star}^2}{2k}$.
+:::
+
+::: {.proof}
+Por escribir.
+:::
+
+El @thm-gd-convexo usa la iteración @eq-gd; ver también [@boyd2004; @nesterov2018].
+
+## Código y figuras
+
+```{python}
+#| label: fig-gd
+#| fig-cap: "Iterados de descenso de gradiente sobre $f(x)=x^2$."
+import numpy as np
+import matplotlib.pyplot as plt
+
+f = lambda x: x**2
+eta, x = 0.3, 2.0
+xs = [x]
+for _ in range(8):
+    x = x - eta * 2 * x
+    xs.append(x)
+xs = np.array(xs)
+
+t = np.linspace(-2.2, 2.2, 200)
+plt.plot(t, f(t))
+plt.plot(xs, f(xs), "o-")
+plt.show()
+```
+
+## Animaciones
+
+Con `matplotlib` (reproductor interactivo en HTML):
+
+```{python}
+#| label: fig-anim
+#| fig-cap: "Animación del descenso de gradiente."
+from matplotlib.animation import FuncAnimation
+from IPython.display import HTML
+
+fig, ax = plt.subplots()
+ax.plot(t, f(t))
+punto, = ax.plot([], [], "ro")
+
+def update(k):
+    punto.set_data([xs[k]], [f(xs[k])])
+    return (punto,)
+
+anim = FuncAnimation(fig, update, frames=len(xs), interval=500)
+plt.close(fig)
+HTML(anim.to_jshtml())
+```
+
+Interactiva, con Observable JS (el control actúa sobre la gráfica en el navegador):
+
+```{ojs}
+viewof eta2 = Inputs.range([0.05, 1.0], {value: 0.3, step: 0.05, label: "η"})
+iterados = Array.from({length: 15}, (_, k) => ({k, x: 2 * Math.pow(1 - 2 * eta2, k)}))
+Plot.plot({
+  marks: [Plot.line(iterados, {x: "k", y: "x"}), Plot.dot(iterados, {x: "k", y: "x"})],
+  y: {label: "x_k"}
+})
+```
+
+Para animaciones estilo 3Blue1Brown, genera un `.mp4` con Manim (`manim -qm escena.py Escena`), guárdalo en una carpeta `media/` e insértalo con el shortcode `video`.
+
+## Diagramas
+
+```{mermaid}
+flowchart LR
+  A[Problema primal] --> B[Lagrangiano]
+  B --> C[Función dual]
+  C --> D[Problema dual]
+```

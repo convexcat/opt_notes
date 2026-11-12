@@ -1,0 +1,3 @@
+## Proyección euclidiana y gradiente proyectado {#sec-proyeccion-gradiente-proyectado}
+
+*Por escribir.*

@@ -1,0 +1,7 @@
+# Complejidad de oráculo {#sec-cap07}
+
+{{< include ../_macros.qmd >}}
+
+{{< include s01-cotas-inferiores.qmd >}}
+
+{{< include s02-clases-de-oraculo.qmd >}}

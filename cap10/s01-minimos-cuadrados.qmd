@@ -1,0 +1,3 @@
+## Mínimos cuadrados como problema convexo {#sec-minimos-cuadrados}
+
+*Por escribir.*

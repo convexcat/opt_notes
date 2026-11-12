@@ -1,0 +1,3 @@
+## Condición KL/PL (Polyak-Łojasiewicz) {#sec-condicion-pl}
+
+*Por escribir.*

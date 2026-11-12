@@ -1,0 +1,3 @@
+## Regresión logística {#sec-regresion-logistica}
+
+*Por escribir.*

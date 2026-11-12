@@ -1,0 +1,3 @@
+## Clases de oráculo (Lipschitz, suave, fuertemente convexo) {#sec-clases-de-oraculo}
+
+*Por escribir.*

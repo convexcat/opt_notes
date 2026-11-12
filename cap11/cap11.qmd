@@ -1,0 +1,11 @@
+# SVM {#sec-cap11}
+
+{{< include ../_macros.qmd >}}
+
+{{< include s01-margen-maximo.qmd >}}
+
+{{< include s02-problema-dual-svm.qmd >}}
+
+{{< include s03-kernel-trick.qmd >}}
+
+{{< include s04-margen-suave-kkt.qmd >}}

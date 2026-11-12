@@ -1,0 +1,13 @@
+# Fundamentos {#sec-cap02}
+
+{{< include ../_macros.qmd >}}
+
+{{< include s01-espacios-normados.qmd >}}
+
+{{< include s02-conjuntos-convexos.qmd >}}
+
+{{< include s03-funciones-convexas.qmd >}}
+
+{{< include s04-suavidad-convexidad-fuerte.qmd >}}
+
+{{< include s05-subdiferenciales.qmd >}}

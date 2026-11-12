@@ -1,0 +1,3 @@
+## Método de Nesterov: motivación por ecuaciones diferenciales {#sec-nesterov-edos}
+
+*Por escribir.*

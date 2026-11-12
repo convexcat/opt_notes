@@ -1,0 +1,3 @@
+## Convergencia acelerada (convexo y fuertemente convexo) {#sec-convergencia-acelerada}
+
+*Por escribir.*

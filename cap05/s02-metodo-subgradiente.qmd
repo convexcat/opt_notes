@@ -1,0 +1,3 @@
+## Método de subgradiente, tasas {#sec-metodo-subgradiente}
+
+*Por escribir.*

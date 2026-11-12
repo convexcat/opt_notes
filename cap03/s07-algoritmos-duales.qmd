@@ -1,0 +1,3 @@
+## Algoritmos duales: subgradiente dual, Lagrangiano aumentado, ADMM {#sec-algoritmos-duales}
+
+*Por escribir.*

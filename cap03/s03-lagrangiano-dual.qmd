@@ -1,0 +1,3 @@
+## Lagrangiano, función dual, dualidad débil/fuerte {#sec-lagrangiano-dual}
+
+*Por escribir.*

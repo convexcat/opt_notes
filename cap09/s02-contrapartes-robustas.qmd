@@ -1,0 +1,3 @@
+## Contrapartes robustas, SOCP/SDP {#sec-contrapartes-robustas}
+
+*Por escribir.*

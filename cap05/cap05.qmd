@@ -1,0 +1,13 @@
+# Optimización no suave {#sec-cap05}
+
+{{< include ../_macros.qmd >}}
+
+{{< include s01-subgradientes.qmd >}}
+
+{{< include s02-metodo-subgradiente.qmd >}}
+
+{{< include s03-proyeccion-gradiente-proyectado.qmd >}}
+
+{{< include s04-gradiente-proximal.qmd >}}
+
+{{< include s05-frank-wolfe.qmd >}}

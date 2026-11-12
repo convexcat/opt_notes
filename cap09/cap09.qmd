@@ -1,0 +1,9 @@
+# Robustez y reformulaciones cónicas {#sec-cap09}
+
+{{< include ../_macros.qmd >}}
+
+{{< include s01-incertidumbre-datos.qmd >}}
+
+{{< include s02-contrapartes-robustas.qmd >}}
+
+{{< include s03-puente-dro.qmd >}}

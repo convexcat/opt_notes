@@ -1,0 +1,3 @@
+## Frank-Wolfe (gradiente condicional) {#sec-frank-wolfe}
+
+*Por escribir.*
