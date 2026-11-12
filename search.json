@@ -1,0 +1,507 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Optimización para ciencia de datos",
+    "section": "",
+    "text": "Prefacio\n\n\\[\n\\newcommand{\\R}{\\mathbb{R}}\n\\newcommand{\\N}{\\mathbb{N}}\n\\newcommand{\\norm}[1]{\\left\\lVert #1 \\right\\rVert}\n\\newcommand{\\inner}[2]{\\left\\langle #1, #2 \\right\\rangle}\n\\newcommand{\\argmin}{\\operatorname*{arg\\,min}}\n\\newcommand{\\argmax}{\\operatorname*{arg\\,max}}\n\\newcommand{\\dom}{\\operatorname{dom}}\n\\newcommand{\\epi}{\\operatorname{epi}}\n\\newcommand{\\conv}{\\operatorname{conv}}\n\\newcommand{\\prox}{\\operatorname{prox}}\n\\newcommand{\\proj}{\\operatorname{proj}}\n\\newcommand{\\subd}{\\partial}\n\\]\n\nNotas sobre optimización para ciencia de datos: fundamentos de análisis convexo, dualidad, algoritmos de primer orden, extensiones no convexas y aplicaciones a modelos lineales y SVM.\nPor escribir.",
+    "crumbs": [
+      "Prefacio"
+    ]
+  },
+  {
+    "objectID": "cap01/cap01.html",
+    "href": "cap01/cap01.html",
+    "title": "1  Motivaciones",
+    "section": "",
+    "text": "1.1 Ejemplos motivadores: clasificación, asignación de recursos, aprendizaje\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Motivaciones</span>"
+    ]
+  },
+  {
+    "objectID": "cap02/cap02.html",
+    "href": "cap02/cap02.html",
+    "title": "2  Fundamentos",
+    "section": "",
+    "text": "2.1 Espacios normados, normas duales\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fundamentos</span>"
+    ]
+  },
+  {
+    "objectID": "cap02/cap02.html#sec-conjuntos-convexos",
+    "href": "cap02/cap02.html#sec-conjuntos-convexos",
+    "title": "2  Fundamentos",
+    "section": "2.2 Conjuntos convexos: operaciones, conos",
+    "text": "2.2 Conjuntos convexos: operaciones, conos\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fundamentos</span>"
+    ]
+  },
+  {
+    "objectID": "cap02/cap02.html#sec-funciones-convexas",
+    "href": "cap02/cap02.html#sec-funciones-convexas",
+    "title": "2  Fundamentos",
+    "section": "2.3 Funciones convexas: caracterizaciones de 1er/2do orden",
+    "text": "2.3 Funciones convexas: caracterizaciones de 1er/2do orden\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fundamentos</span>"
+    ]
+  },
+  {
+    "objectID": "cap02/cap02.html#sec-suavidad-convexidad-fuerte",
+    "href": "cap02/cap02.html#sec-suavidad-convexidad-fuerte",
+    "title": "2  Fundamentos",
+    "section": "2.4 Suavidad y convexidad fuerte",
+    "text": "2.4 Suavidad y convexidad fuerte\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fundamentos</span>"
+    ]
+  },
+  {
+    "objectID": "cap02/cap02.html#sec-subdiferenciales",
+    "href": "cap02/cap02.html#sec-subdiferenciales",
+    "title": "2  Fundamentos",
+    "section": "2.5 Subdiferenciales",
+    "text": "2.5 Subdiferenciales\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fundamentos</span>"
+    ]
+  },
+  {
+    "objectID": "cap03/cap03.html",
+    "href": "cap03/cap03.html",
+    "title": "3  Condiciones de optimalidad, dualidad y algoritmos",
+    "section": "",
+    "text": "3.1 Condiciones de optimalidad sin restricciones\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Condiciones de optimalidad, dualidad y algoritmos</span>"
+    ]
+  },
+  {
+    "objectID": "cap03/cap03.html#sec-kkt",
+    "href": "cap03/cap03.html#sec-kkt",
+    "title": "3  Condiciones de optimalidad, dualidad y algoritmos",
+    "section": "3.2 Condiciones KKT",
+    "text": "3.2 Condiciones KKT\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Condiciones de optimalidad, dualidad y algoritmos</span>"
+    ]
+  },
+  {
+    "objectID": "cap03/cap03.html#sec-lagrangiano-dual",
+    "href": "cap03/cap03.html#sec-lagrangiano-dual",
+    "title": "3  Condiciones de optimalidad, dualidad y algoritmos",
+    "section": "3.3 Lagrangiano, función dual, dualidad débil/fuerte",
+    "text": "3.3 Lagrangiano, función dual, dualidad débil/fuerte\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Condiciones de optimalidad, dualidad y algoritmos</span>"
+    ]
+  },
+  {
+    "objectID": "cap03/cap03.html#sec-dualidad-fenchel",
+    "href": "cap03/cap03.html#sec-dualidad-fenchel",
+    "title": "3  Condiciones de optimalidad, dualidad y algoritmos",
+    "section": "3.4 Dualidad de Fenchel",
+    "text": "3.4 Dualidad de Fenchel\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Condiciones de optimalidad, dualidad y algoritmos</span>"
+    ]
+  },
+  {
+    "objectID": "cap03/cap03.html#sec-dualidad-lp-farkas",
+    "href": "cap03/cap03.html#sec-dualidad-lp-farkas",
+    "title": "3  Condiciones de optimalidad, dualidad y algoritmos",
+    "section": "3.5 Caso lineal como ilustración: dualidad LP, Farkas",
+    "text": "3.5 Caso lineal como ilustración: dualidad LP, Farkas\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Condiciones de optimalidad, dualidad y algoritmos</span>"
+    ]
+  },
+  {
+    "objectID": "cap03/cap03.html#sec-penalizacion-cuadratica",
+    "href": "cap03/cap03.html#sec-penalizacion-cuadratica",
+    "title": "3  Condiciones de optimalidad, dualidad y algoritmos",
+    "section": "3.6 Penalización cuadrática",
+    "text": "3.6 Penalización cuadrática\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Condiciones de optimalidad, dualidad y algoritmos</span>"
+    ]
+  },
+  {
+    "objectID": "cap03/cap03.html#sec-algoritmos-duales",
+    "href": "cap03/cap03.html#sec-algoritmos-duales",
+    "title": "3  Condiciones de optimalidad, dualidad y algoritmos",
+    "section": "3.7 Algoritmos duales: subgradiente dual, Lagrangiano aumentado, ADMM",
+    "text": "3.7 Algoritmos duales: subgradiente dual, Lagrangiano aumentado, ADMM\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Condiciones de optimalidad, dualidad y algoritmos</span>"
+    ]
+  },
+  {
+    "objectID": "cap03/cap03.html#sec-barrera-punto-interior",
+    "href": "cap03/cap03.html#sec-barrera-punto-interior",
+    "title": "3  Condiciones de optimalidad, dualidad y algoritmos",
+    "section": "3.8 Barrera y punto interior (caso convexo: ruta central, autoconcordancia, complejidad polinomial)",
+    "text": "3.8 Barrera y punto interior (caso convexo: ruta central, autoconcordancia, complejidad polinomial)\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Condiciones de optimalidad, dualidad y algoritmos</span>"
+    ]
+  },
+  {
+    "objectID": "cap04/cap04.html",
+    "href": "cap04/cap04.html",
+    "title": "4  Algoritmos de primer orden",
+    "section": "",
+    "text": "4.1 Descenso de gradiente: caso general, convexo, fuertemente convexo\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Algoritmos de primer orden</span>"
+    ]
+  },
+  {
+    "objectID": "cap04/cap04.html#sec-comparacion-tasas",
+    "href": "cap04/cap04.html#sec-comparacion-tasas",
+    "title": "4  Algoritmos de primer orden",
+    "section": "4.2 Comparación de tasas",
+    "text": "4.2 Comparación de tasas\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Algoritmos de primer orden</span>"
+    ]
+  },
+  {
+    "objectID": "cap04/cap04.html#sec-busqueda-en-linea",
+    "href": "cap04/cap04.html#sec-busqueda-en-linea",
+    "title": "4  Algoritmos de primer orden",
+    "section": "4.3 Métodos de búsqueda en línea (Wolfe, backtracking)",
+    "text": "4.3 Métodos de búsqueda en línea (Wolfe, backtracking)\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Algoritmos de primer orden</span>"
+    ]
+  },
+  {
+    "objectID": "cap05/cap05.html",
+    "href": "cap05/cap05.html",
+    "title": "5  Optimización no suave",
+    "section": "",
+    "text": "5.1 Subgradientes y subdiferenciales\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Optimización no suave</span>"
+    ]
+  },
+  {
+    "objectID": "cap05/cap05.html#sec-metodo-subgradiente",
+    "href": "cap05/cap05.html#sec-metodo-subgradiente",
+    "title": "5  Optimización no suave",
+    "section": "5.2 Método de subgradiente, tasas",
+    "text": "5.2 Método de subgradiente, tasas\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Optimización no suave</span>"
+    ]
+  },
+  {
+    "objectID": "cap05/cap05.html#sec-proyeccion-gradiente-proyectado",
+    "href": "cap05/cap05.html#sec-proyeccion-gradiente-proyectado",
+    "title": "5  Optimización no suave",
+    "section": "5.3 Proyección euclidiana y gradiente proyectado",
+    "text": "5.3 Proyección euclidiana y gradiente proyectado\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Optimización no suave</span>"
+    ]
+  },
+  {
+    "objectID": "cap05/cap05.html#sec-gradiente-proximal",
+    "href": "cap05/cap05.html#sec-gradiente-proximal",
+    "title": "5  Optimización no suave",
+    "section": "5.4 Gradiente proximal, operador de Moreau",
+    "text": "5.4 Gradiente proximal, operador de Moreau\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Optimización no suave</span>"
+    ]
+  },
+  {
+    "objectID": "cap05/cap05.html#sec-frank-wolfe",
+    "href": "cap05/cap05.html#sec-frank-wolfe",
+    "title": "5  Optimización no suave",
+    "section": "5.5 Frank-Wolfe (gradiente condicional)",
+    "text": "5.5 Frank-Wolfe (gradiente condicional)\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Optimización no suave</span>"
+    ]
+  },
+  {
+    "objectID": "cap06/cap06.html",
+    "href": "cap06/cap06.html",
+    "title": "6  Aceleración y geometría",
+    "section": "",
+    "text": "6.1 Método de Nesterov: motivación por ecuaciones diferenciales\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Aceleración y geometría</span>"
+    ]
+  },
+  {
+    "objectID": "cap06/cap06.html#sec-convergencia-acelerada",
+    "href": "cap06/cap06.html#sec-convergencia-acelerada",
+    "title": "6  Aceleración y geometría",
+    "section": "6.2 Convergencia acelerada (convexo y fuertemente convexo)",
+    "text": "6.2 Convergencia acelerada (convexo y fuertemente convexo)\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Aceleración y geometría</span>"
+    ]
+  },
+  {
+    "objectID": "cap06/cap06.html#sec-mirror-descent-bregman",
+    "href": "cap06/cap06.html#sec-mirror-descent-bregman",
+    "title": "6  Aceleración y geometría",
+    "section": "6.3 Mirror descent y divergencias de Bregman",
+    "text": "6.3 Mirror descent y divergencias de Bregman\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Aceleración y geometría</span>"
+    ]
+  },
+  {
+    "objectID": "cap06/cap06.html#sec-euclidiana-vs-entropia",
+    "href": "cap06/cap06.html#sec-euclidiana-vs-entropia",
+    "title": "6  Aceleración y geometría",
+    "section": "6.4 Ejemplos: norma euclidiana vs. entropía negativa (simplex)",
+    "text": "6.4 Ejemplos: norma euclidiana vs. entropía negativa (simplex)\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Aceleración y geometría</span>"
+    ]
+  },
+  {
+    "objectID": "cap07/cap07.html",
+    "href": "cap07/cap07.html",
+    "title": "7  Complejidad de oráculo",
+    "section": "",
+    "text": "7.1 Cotas inferiores de convergencia\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Complejidad de oráculo</span>"
+    ]
+  },
+  {
+    "objectID": "cap07/cap07.html#sec-clases-de-oraculo",
+    "href": "cap07/cap07.html#sec-clases-de-oraculo",
+    "title": "7  Complejidad de oráculo",
+    "section": "7.2 Clases de oráculo (Lipschitz, suave, fuertemente convexo)",
+    "text": "7.2 Clases de oráculo (Lipschitz, suave, fuertemente convexo)\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Complejidad de oráculo</span>"
+    ]
+  },
+  {
+    "objectID": "cap08/cap08.html",
+    "href": "cap08/cap08.html",
+    "title": "8  Extensiones no convexas",
+    "section": "",
+    "text": "8.1 Puntos estacionarios de 2do orden aproximados\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Extensiones no convexas</span>"
+    ]
+  },
+  {
+    "objectID": "cap08/cap08.html#sec-condicion-pl",
+    "href": "cap08/cap08.html#sec-condicion-pl",
+    "title": "8  Extensiones no convexas",
+    "section": "8.2 Condición KL/PL (Polyak-Łojasiewicz)",
+    "text": "8.2 Condición KL/PL (Polyak-Łojasiewicz)\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Extensiones no convexas</span>"
+    ]
+  },
+  {
+    "objectID": "cap08/cap08.html#sec-newton-cubica",
+    "href": "cap08/cap08.html#sec-newton-cubica",
+    "title": "8  Extensiones no convexas",
+    "section": "8.3 Newton y regularización cúbica",
+    "text": "8.3 Newton y regularización cúbica\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Extensiones no convexas</span>"
+    ]
+  },
+  {
+    "objectID": "cap08/cap08.html#sec-sqp",
+    "href": "cap08/cap08.html#sec-sqp",
+    "title": "8  Extensiones no convexas",
+    "section": "8.4 SQP (programación cuadrática secuencial)",
+    "text": "8.4 SQP (programación cuadrática secuencial)\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Extensiones no convexas</span>"
+    ]
+  },
+  {
+    "objectID": "cap09/cap09.html",
+    "href": "cap09/cap09.html",
+    "title": "9  Robustez y reformulaciones cónicas",
+    "section": "",
+    "text": "9.1 Incertidumbre en los datos\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Robustez y reformulaciones cónicas</span>"
+    ]
+  },
+  {
+    "objectID": "cap09/cap09.html#sec-contrapartes-robustas",
+    "href": "cap09/cap09.html#sec-contrapartes-robustas",
+    "title": "9  Robustez y reformulaciones cónicas",
+    "section": "9.2 Contrapartes robustas, SOCP/SDP",
+    "text": "9.2 Contrapartes robustas, SOCP/SDP\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Robustez y reformulaciones cónicas</span>"
+    ]
+  },
+  {
+    "objectID": "cap09/cap09.html#sec-puente-dro",
+    "href": "cap09/cap09.html#sec-puente-dro",
+    "title": "9  Robustez y reformulaciones cónicas",
+    "section": "9.3 Puente hacia DRO",
+    "text": "9.3 Puente hacia DRO\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Robustez y reformulaciones cónicas</span>"
+    ]
+  },
+  {
+    "objectID": "cap10/cap10.html",
+    "href": "cap10/cap10.html",
+    "title": "10  Modelos lineales",
+    "section": "",
+    "text": "10.1 Mínimos cuadrados como problema convexo\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Modelos lineales</span>"
+    ]
+  },
+  {
+    "objectID": "cap10/cap10.html#sec-ridge",
+    "href": "cap10/cap10.html#sec-ridge",
+    "title": "10  Modelos lineales",
+    "section": "10.2 Ridge",
+    "text": "10.2 Ridge\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Modelos lineales</span>"
+    ]
+  },
+  {
+    "objectID": "cap10/cap10.html#sec-lasso",
+    "href": "cap10/cap10.html#sec-lasso",
+    "title": "10  Modelos lineales",
+    "section": "10.3 Lasso",
+    "text": "10.3 Lasso\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Modelos lineales</span>"
+    ]
+  },
+  {
+    "objectID": "cap10/cap10.html#sec-regresion-logistica",
+    "href": "cap10/cap10.html#sec-regresion-logistica",
+    "title": "10  Modelos lineales",
+    "section": "10.4 Regresión logística",
+    "text": "10.4 Regresión logística\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Modelos lineales</span>"
+    ]
+  },
+  {
+    "objectID": "cap11/cap11.html",
+    "href": "cap11/cap11.html",
+    "title": "11  SVM",
+    "section": "",
+    "text": "11.1 Margen máximo: formulación primal\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>SVM</span>"
+    ]
+  },
+  {
+    "objectID": "cap11/cap11.html#sec-problema-dual-svm",
+    "href": "cap11/cap11.html#sec-problema-dual-svm",
+    "title": "11  SVM",
+    "section": "11.2 Problema dual",
+    "text": "11.2 Problema dual\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>SVM</span>"
+    ]
+  },
+  {
+    "objectID": "cap11/cap11.html#sec-kernel-trick",
+    "href": "cap11/cap11.html#sec-kernel-trick",
+    "title": "11  SVM",
+    "section": "11.3 Kernel trick",
+    "text": "11.3 Kernel trick\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>SVM</span>"
+    ]
+  },
+  {
+    "objectID": "cap11/cap11.html#sec-margen-suave-kkt",
+    "href": "cap11/cap11.html#sec-margen-suave-kkt",
+    "title": "11  SVM",
+    "section": "11.4 Margen suave y KKT",
+    "text": "11.4 Margen suave y KKT\nPor escribir.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>SVM</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "Referencias",
+    "section": "",
+    "text": "Boyd, Stephen, and Lieven Vandenberghe. 2004. Convex\nOptimization. Cambridge University Press.\n\n\nNesterov, Yurii. 2018. Lectures on Convex Optimization. 2nd ed.\nSpringer.",
+    "crumbs": [
+      "Referencias"
+    ]
+  },
+  {
+    "objectID": "apendices/guia-formato.html",
+    "href": "apendices/guia-formato.html",
+    "title": "Guía de formato",
+    "section": "",
+    "text": "LaTeX\nEjemplo de cada elemento disponible. Borra este apéndice (y su línea en _quarto.yml) cuando ya no lo necesites.\nEn línea: \\(f:\\R^n\\to\\R\\) es \\(L\\)-suave si \\(\\norm{\\nabla f(x)-\\nabla f(y)}\\le L\\norm{x-y}\\). Las macros de _macros.qmd están disponibles en todos los capítulos.\nEn bloque, con etiqueta para referenciarla con @eq-gd:\n\\[\nx_{k+1} = x_k - \\eta\\,\\nabla f(x_k)\n\\tag{1}\\]",
+    "crumbs": [
+      "Apéndices",
+      "Guía de formato"
+    ]
+  },
+  {
+    "objectID": "apendices/guia-formato.html#teoremas-y-referencias",
+    "href": "apendices/guia-formato.html#teoremas-y-referencias",
+    "title": "Guía de formato",
+    "section": "Teoremas y referencias",
+    "text": "Teoremas y referencias\n\nTeorema 1 (Descenso de gradiente, caso convexo) Si \\(f\\) es convexa y \\(L\\)-suave y \\(\\eta = 1/L\\), entonces \\(f(x_k)-f^\\star \\le \\dfrac{L\\norm{x_0-x^\\star}^2}{2k}\\).\n\n\nDemostración. Por escribir.\n\nEl Teorema 1 usa la iteración Ecuación 1; ver también (Boyd y Vandenberghe 2004; Nesterov 2018).",
+    "crumbs": [
+      "Apéndices",
+      "Guía de formato"
+    ]
+  },
+  {
+    "objectID": "apendices/guia-formato.html#código-y-figuras",
+    "href": "apendices/guia-formato.html#código-y-figuras",
+    "title": "Guía de formato",
+    "section": "Código y figuras",
+    "text": "Código y figuras\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nf = lambda x: x**2\neta, x = 0.3, 2.0\nxs = [x]\nfor _ in range(8):\n    x = x - eta * 2 * x\n    xs.append(x)\nxs = np.array(xs)\n\nt = np.linspace(-2.2, 2.2, 200)\nplt.plot(t, f(t))\nplt.plot(xs, f(xs), \"o-\")\nplt.show()\n\n\n\n\n\n\n\nFigura 1: Iterados de descenso de gradiente sobre \\(f(x)=x^2\\).",
+    "crumbs": [
+      "Apéndices",
+      "Guía de formato"
+    ]
+  },
+  {
+    "objectID": "apendices/guia-formato.html#animaciones",
+    "href": "apendices/guia-formato.html#animaciones",
+    "title": "Guía de formato",
+    "section": "Animaciones",
+    "text": "Animaciones\nCon matplotlib (reproductor interactivo en HTML):\n\nfrom matplotlib.animation import FuncAnimation\nfrom IPython.display import HTML\n\nfig, ax = plt.subplots()\nax.plot(t, f(t))\npunto, = ax.plot([], [], \"ro\")\n\ndef update(k):\n    punto.set_data([xs[k]], [f(xs[k])])\n    return (punto,)\n\nanim = FuncAnimation(fig, update, frames=len(xs), interval=500)\nplt.close(fig)\nHTML(anim.to_jshtml())\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n    \n      \n          \n      \n        \n      \n          \n      \n          \n      \n          \n      \n          \n      \n          \n      \n          \n      \n          \n    \n    \n      \n      Once\n      \n      Loop\n      \n      Reflect\n    \n  \n\n\n\n\n\n\nFigura 2: Animación del descenso de gradiente.\n\n\n\n\nInteractiva, con Observable JS (el control actúa sobre la gráfica en el navegador):\n\nviewof eta2 = Inputs.range([0.05, 1.0], {value: 0.3, step: 0.05, label: \"η\"})\niterados = Array.from({length: 15}, (_, k) =&gt; ({k, x: 2 * Math.pow(1 - 2 * eta2, k)}))\nPlot.plot({\n  marks: [Plot.line(iterados, {x: \"k\", y: \"x\"}), Plot.dot(iterados, {x: \"k\", y: \"x\"})],\n  y: {label: \"x_k\"}\n})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPara animaciones estilo 3Blue1Brown, genera un .mp4 con Manim (manim -qm escena.py Escena), guárdalo en una carpeta media/ e insértalo con el shortcode video.",
+    "crumbs": [
+      "Apéndices",
+      "Guía de formato"
+    ]
+  },
+  {
+    "objectID": "apendices/guia-formato.html#diagramas",
+    "href": "apendices/guia-formato.html#diagramas",
+    "title": "Guía de formato",
+    "section": "Diagramas",
+    "text": "Diagramas\n\n\n\n\n\n\nflowchart LR\n  A[Problema primal] --&gt; B[Lagrangiano]\n  B --&gt; C[Función dual]\n  C --&gt; D[Problema dual]\n\n\n\n\n\n\n\n\n\n\nBoyd, Stephen, y Lieven Vandenberghe. 2004. Convex Optimization. Cambridge University Press.\n\n\nNesterov, Yurii. 2018. Lectures on Convex Optimization. 2.ª ed. Springer.",
+    "crumbs": [
+      "Apéndices",
+      "Guía de formato"
+    ]
+  }
+]
